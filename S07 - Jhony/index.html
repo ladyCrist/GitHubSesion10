@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Aplicación de ejercicio 01</title>
+<link type="text/css" href="css/cupertino/jquery-ui-1.8.1.custom.css" rel="Stylesheet" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.1.custom.min.js"></script>
+
+<script>
+    function MensajeHola() {
+        document.getElementById("Entrada").innerHTML="Hola Mundo";
+    }
+    function MensajeSuma() {
+        a=19;
+        b=20;
+        c=a+b;
+        document.getElementById("Suma").innerHTML=c+"";
+    }
+</script>
+
+<script src="demo.js"></script>
+
+</head>
+<body>
+<header>
+<h1>Hola</h1>
+</header>
+<p id="Entrada">Inicio</p>
+<p id="Suma">Inicio</p>
+<p id="Producto">Inicio</p>
+<button type="button" onclick="MensajeHola()">Message</button>
+<button type="button" onclick="MensajeSuma()">SUma</button>
+<button type="button" onclick="MensajeProducto()">Producto</button>
+<button type="button" onclick="alertas()">mensaje de alerta</button>
+</body>
+</html>
